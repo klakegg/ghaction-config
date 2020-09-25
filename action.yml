@@ -1,0 +1,21 @@
+name: Load config
+description: Load configuration for use in workflow.
+
+branding:
+  color: green
+  icon: settings
+
+inputs:
+  path:
+    description: Configuration file
+    default: project.yaml
+  debug:
+    description: Debug mode
+    default: false
+  delimiter:
+    description: Delimiter for each level
+    default: '--'
+
+runs:
+  using: node12
+  main: index.js

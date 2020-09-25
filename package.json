@@ -1,0 +1,10 @@
+{
+  "name": "ghaction-config",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@types/js-yaml": "^3.12.5",
+    "@types/node": "^14.11.2",
+    "js-yaml": "^3.14.0"
+  }
+}
